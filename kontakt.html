@@ -1,0 +1,376 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="img/ALF.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freshday Oslo | turist nettsted</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+
+    <header>
+      <div class="u-head">
+        <div class="head-cont">
+          <div class="l-inf">
+            <h2><i class="fa-solid fa-envelope"></i> +47 461 20001</h2>
+            <h2>Gratis veiledning</h2>
+            <h2>Hjelp</h2>
+            <h2>FAQ</h2>
+          </div>
+          <div class="r-inf">
+            <h2><i class="fa-solid fa-phone"></i>freshdayoslo@gmail.com</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html">
+            <img src="img/FRESHDAY.png" class="logo" alt="" />
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" id="home">Forside</a>
+            </li>
+            <li class="nav-item">
+              <a href="alle.html" class="nav-link" id="home">Alle turer</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="freshdayoslo.html" class="nav-link" id="about"
+                >Om Freshday</a
+              >
+            </li>
+            <li class="nav-item custom-language-selector">
+              <div class="lang-dropdown">
+                <button class="lang-toggle">🌐 ENG ▾</button>
+                <div class="lang-options">
+                  <a href="#" data-lang="en"
+                    ><img src="https://flagcdn.com/w40/gb.png" alt="English" />
+                    English</a
+                  >
+                  <a href="#" data-lang="no"
+                    ><img src="https://flagcdn.com/w40/no.png" alt="Norsk" />
+                    Norsk</a
+                  >
+                  <a href="#" data-lang="es"
+                    ><img src="https://flagcdn.com/w40/es.png" alt="Español" />
+                    Español</a
+                  >
+                  <a href="#" data-lang="ar"
+                    ><img src="https://flagcdn.com/w40/sa.png" alt="Arabic" />
+                    العربية</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="kontakt.html" class="nav-link darkerr">Kontakt oss</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="freshday-contact-wrapper">
+      <div class="freshday-contact-header">
+        <h2>Kontakt Freshday Oslo</h2>
+        <p>
+          Vi tilbyr unike smågruppeturer over hele verden, med dyktige og
+          kvalifiserte turguider. Opplev uforglemmelige reiser, komfortable
+          opplevelser og minneverdige eventyr – trygt og profesjonelt
+          gjennomført.
+        </p>
+      </div>
+
+      <div class="freshday-contact-grid">
+        <!-- Kontaktinfo -->
+        <div class="freshday-contact-info">
+          <p>
+            Foretrekker du e-post? Kontakt oss på:<br />
+            <strong>freshdayoslo@gmail.com</strong>
+          </p>
+          <button
+            class="freshday-button"
+            onclick="window.location.href='mailto:post@freshdayoslo.no'"
+          >
+            Send e-post
+          </button>
+
+          <div class="freshday-company-details">
+            <h4>Firmainformasjon</h4>
+            <p>
+              <strong>Juridisk selskapsnavn:</strong><br />
+              Freshday Oslo
+            </p>
+
+            <p>
+              <strong>E-post:</strong><br />
+              freshdayoslo@gmail.com
+            </p>
+            <p>
+              <strong>Telefon:</strong><br />
+              +47 461 20001
+            </p>
+          </div>
+        </div>
+
+        <!-- Kontaktskjema -->
+        <div class="freshday-contact-form">
+          <form
+            action="https://formsubmit.co/freshdayoslo@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Fullt navn *"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-postadresse *"
+              required
+            />
+            <input type="tel" name="phone" placeholder="Telefonnummer" />
+            <textarea
+              name="message"
+              placeholder="Hvordan kan vi hjelpe deg?"
+              required
+            ></textarea>
+
+            <!-- Skjulte innstillinger for Formsubmit -->
+            <input
+              type="hidden"
+              name="_next"
+              value="https://freshdayoslo.no/takk.html"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <button type="submit" class="freshday-button">Send melding</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="freshday-dubai-footer">
+      <div class="freshday-dubai-container">
+        <div class="freshday-dubai-footer-left">
+          <div class="freshday-dubai-logo">
+            <h3>Freshday Oslo</h3>
+          </div>
+          <p class="freshday-dubai-desc">
+            Vi guider deg gjennom uforglemmelige opplevelser i Dubai og utvalgte
+            reisemål verden over – med fokus på kvalitet, komfort og små
+            grupper.
+          </p>
+          <div class="freshday-dubai-socials">
+            <a href="https://www.facebook.com/freshday"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/freshday"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="freshday-dubai-footer-columns">
+          <div>
+            <h4>Selskap</h4>
+            <ul>
+              <li><a href="freshdayoslo.html">Om oss</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+              <li><a href="jobb.html">Jobb med oss</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Reiser</h4>
+            <ul>
+              <li><a href="freshdaydubai.html">Drømmereiser til Dubai</a></li>
+              <li><a href="marrakech.html">Marrakech-opplevelser</a></li>
+              <li><a href="scandinavia.html">Scandinavia-turer</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Hjelp</h4>
+            <ul>
+              <li><a href="vilkar.html">Vilkår for bruk</a></li>
+              <li><a href="index.html">Personvernerklæring</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="freshday-dubai-footer-bottom">
+        <p>
+          © 2025 Freshday Oslo. Alle rettigheter forbeholdt.
+          <span class="freshday-footer-links">
+            <a href="https://digitalsynlig.no/"
+              >Design og utvikling av Digitalsynlig</a
+            >
+            |
+          </span>
+        </p>
+      </div>
+    </footer>
+
+    <div id="google_translate_element" style="display: none"></div>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+
+      // Last Google Translate
+      const gtScript = document.createElement("script");
+      gtScript.src =
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      document.body.appendChild(gtScript);
+
+      // Dropdown-funksjon
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.querySelector(".lang-toggle");
+        const menu = document.querySelector(".lang-options");
+
+        if (toggle && menu) {
+          // Toggle visning
+          toggle.addEventListener("click", function (e) {
+            e.stopPropagation();
+            menu.classList.toggle("show");
+          });
+
+          // Klikk på et språkvalg
+          document.querySelectorAll(".lang-options a").forEach((el) => {
+            el.addEventListener("click", function (e) {
+              e.preventDefault();
+              const lang = this.getAttribute("data-lang");
+              const select = document.querySelector(".goog-te-combo");
+              if (select) {
+                select.value = lang;
+                select.dispatchEvent(new Event("change"));
+              }
+              menu.classList.remove("show");
+            });
+          });
+
+          // Klikk utenfor lukker menyen
+          document.addEventListener("click", function (e) {
+            if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+              menu.classList.remove("show");
+            }
+          });
+        }
+      });
+    </script>
+
+    <script>
+      const slides = document.querySelectorAll(".hero-slide");
+      const data = [
+        {
+          title: "Freshday Dubai",
+          desc: "Opplev luksusens høyborg – ikoniske skyskrapere, ørkeneventyr og uforglemmelige kvelder i hjertet av UAE.",
+        },
+        {
+          title: "Freshday Marakech",
+          desc: "Fordyp deg i Marokkos magi – fargerike basarer, duftende kryddermarkeder og overdådige palasser.",
+        },
+        {
+          title: "Freshday Skandinavia",
+          desc: "Fra Norges majestetiske fjorder til Danmarks sjarmerende byliv, Sveriges vakre skjærgård og Islands dramatiske natur – en reise gjennom Nordens vakreste perler.",
+        },
+        {
+          title: "Freshday Zürich",
+          desc: "Utforsk Zürich – der sveitsisk eleganse møter alpeutsikt, eksklusiv shopping og livlige kulturkvartaler.",
+        },
+      ];
+
+      const titleEl = document.getElementById("hero-title");
+      const descEl = document.getElementById("hero-desc");
+      const controls = document.querySelector(".hero-controls");
+      let i = 0,
+        t;
+
+      slides.forEach((_, idx) => {
+        const dot = document.createElement("button");
+        dot.className = "dot" + (idx === 0 ? " active" : "");
+        dot.onclick = () => {
+          i = idx;
+          show();
+        };
+        controls.appendChild(dot);
+      });
+
+      function show() {
+        slides.forEach((s) => s.classList.remove("active"));
+        slides[i].classList.add("active");
+        document
+          .querySelectorAll(".dot")
+          .forEach((d, idx) => d.classList.toggle("active", idx === i));
+        titleEl.textContent = data[i].title;
+        descEl.textContent = data[i].desc;
+      }
+
+      function next() {
+        i = (i + 1) % slides.length;
+        show();
+      }
+
+      function start() {
+        t = setInterval(next, 4000);
+      }
+
+      controls.onmouseenter = () => clearInterval(t);
+      controls.onmouseleave = start;
+
+      start();
+    </script>
+
+    <script>
+      const tabs = document.querySelectorAll(".tab-button");
+      const contents = document.querySelectorAll(".tab-content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+
+          contents.forEach((c) => c.classList.remove("active"));
+          document.getElementById(tab.dataset.tab).classList.add("active");
+        });
+      });
+    </script>
+    <!-- CONTACT US -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
